@@ -1,6 +1,7 @@
 # TTL Tether Switcher GUI (Linux, Windows, macOS)
 
-Aplikasi GUI modern untuk mengatur TTL (Time To Live) di PC/laptop agar tidak terdeteksi tethering saat menggunakan hotspot Android.
+Aplikasi GUI modern untuk mengatur TTL (Time To Live) di PC/laptop agar tidak terdeteksi tethering saat menggunakan hotspot **Android**.
+Untuk Iphone, sepertinya sudah ada mekanisme nya dan tidak perlu ini untuk Tethering dari iphone ke device lain.
 
 ---
 
@@ -9,7 +10,7 @@ Aplikasi GUI modern untuk mengatur TTL (Time To Live) di PC/laptop agar tidak te
 | Platform | Folder            | Cara Jalan         | Perbedaan Utama |
 |----------|-------------------|-------------------|-----------------|
 | Linux    | TTL_GUI_Linux/    | `python main.py`  | Ubah TTL via iptables/sysctl, butuh sudo/root |
-| Windows  | TTL_GUI_Windows/  | `python main.py`  | Ubah TTL via registry, butuh Administrator, restart diperlukan |
+| Windows  | TTL_GUI_Windows/  | `python main.py`  | Ubah TTL via registry, butuh Administrator |
 | macOS    | TTL_GUI_macOS/    | `python main.py`  | Ubah TTL via sysctl, butuh sudo/root |
 
 ---
