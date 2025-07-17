@@ -5,6 +5,15 @@ Untuk Iphone, sepertinya sudah ada mekanisme nya dan tidak perlu ini untuk Tethe
 
 ---
 
+## Clone Repository
+
+```bash
+git clone https://github.com/fajarkurnia0388/TTL_Py.git
+cd TTL_Py
+```
+
+---
+
 ## Platform Support
 
 | Platform | Folder            | Cara Jalan         | Perbedaan Utama |
@@ -12,6 +21,28 @@ Untuk Iphone, sepertinya sudah ada mekanisme nya dan tidak perlu ini untuk Tethe
 | Linux    | TTL_GUI_Linux/    | `python main.py`  | Ubah TTL via iptables/sysctl, butuh sudo/root |
 | Windows  | TTL_GUI_Windows/  | `python main.py`  | Ubah TTL via registry, butuh Administrator |
 | macOS    | TTL_GUI_macOS/    | `python main.py`  | Ubah TTL via sysctl, butuh sudo/root |
+
+---
+
+## Clone per Platform
+
+### Linux
+```bash
+git clone https://github.com/fajarkurnia0388/TTL_Py.git
+cd TTL_Py/TTL_GUI_Linux
+```
+
+### Windows
+```bash
+git clone https://github.com/fajarkurnia0388/TTL_Py.git
+cd TTL_Py/TTL_GUI_Windows
+```
+
+### macOS
+```bash
+git clone https://github.com/fajarkurnia0388/TTL_Py.git
+cd TTL_Py/TTL_GUI_macOS
+```
 
 ---
 
